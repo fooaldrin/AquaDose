@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "credentialsSource": "local",
+      "ios": {
+        "image": "macos-sequoia-15.6-xcode-26.2"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "thomas@thomasaldrin.com",
+        "ascAppId": "6819433669",
+        "appleTeamId": "74XR834VF4",
+        "ascApiKeyPath": "/Users/thomasaldrin/.gemini/config/asc/AuthKey_72SDNZ868F.p8",
+        "ascApiKeyIssuerId": "ed9b464b-285a-4a07-8235-a4343cbe21eb",
+        "ascApiKeyId": "72SDNZ868F"
+      }
+    }
+  }
+}
