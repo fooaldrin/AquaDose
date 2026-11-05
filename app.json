@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AquaDose",
+    "slug": "aquadose",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#071318"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thomasaldrin.aquadose",
+      "buildNumber": "2",
+      "appleTeamId": "74XR834VF4",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#071318"
+      },
+      "package": "com.thomasaldrin.aquadose"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "fooaldrin"
+  }
+}
